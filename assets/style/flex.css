@@ -28,6 +28,21 @@
 }
 
 
+/* PROXIMOS EVENTOS */
+.eventos__lista{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1.5rem;
+    row-gap: 1rem;
+    justify-content: center;
+}
+
+.eventos__item{
+    flex-grow: 1;
+    max-width: 400px;
+}
+
+
 /* MEDIA QUERY TABLET */
 @media(min-width:720px){
     
@@ -43,6 +58,10 @@
         column-gap: 1.5rem;
     }
 
+    /* PROXIMOS EVENTOS */
+    .eventos__lista{
+        justify-content: end;
+    }
     
 }
 
