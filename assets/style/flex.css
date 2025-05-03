@@ -16,6 +16,17 @@
     row-gap: 0.5rem;
 }
 
+/* DESTAQUES */
+.destaques{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.destaques__barra{
+    flex-grow: 1;
+}
+
 
 /* MEDIA QUERY TABLET */
 @media(min-width:720px){
@@ -32,16 +43,7 @@
         column-gap: 1.5rem;
     }
 
-    /* DESTAQUES */
-    .destaques{
-        display: flex;
-        align-items: center;
-        column-gap: 10px;
-    }
-
-    .destaques__barra{
-        flex-grow: 1;
-    }
+    
 }
 
 
