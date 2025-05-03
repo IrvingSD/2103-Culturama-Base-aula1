@@ -31,6 +31,17 @@
         row-gap: 1rem;
         column-gap: 1.5rem;
     }
+
+    /* DESTAQUES */
+    .destaques{
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+    }
+
+    .destaques__barra{
+        flex-grow: 1;
+    }
 }
 
 
@@ -62,4 +73,10 @@
     .menu__item:nth-child(5){
         order: 2;
     }
+
+    /* .destaques{
+        display: flex;
+        flex-direction:column;
+        justify-content: flex-end;
+    } */
 }
