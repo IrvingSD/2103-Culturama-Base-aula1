@@ -125,3 +125,37 @@ DISTRIBUCION DENTRO DE TARJETAS */
     } */
 
 }
+
+/* RESPONSIVIDAD DESKTOP */
+@media(min-width:1440px){
+
+    /* CATEGORIAS */
+    .categorias{
+        display: grid;
+        grid-template-areas:
+        "titulo titulo"
+        "list dest"
+        "list img";
+        row-gap: 1rem;
+        column-gap: 1.5rem;
+        grid-template-columns: calc(50% - 0.75rem);
+        grid-template-rows: auto 1fr auto;
+    }
+
+    .categorias__titulo{
+        grid-area: titulo;
+    }
+
+    .categorias__lista{
+        grid-area: list;
+    }
+
+    .categorias__destaques{
+        grid-area: dest;
+    }
+
+    .categorias__imagen{
+        grid-area: img;
+    }
+
+}
