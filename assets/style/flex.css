@@ -28,7 +28,9 @@
 }
 
 
-/* PROXIMOS EVENTOS */
+/* PROXIMOS EVENTOS
+Y AGENDA */
+.agenda__lista,
 .eventos__lista{
     display: flex;
     flex-wrap: wrap;
@@ -37,10 +39,12 @@
     justify-content: center;
 }
 
+.agenda__item,
 .eventos__item{
     flex-grow: 1;
     max-width: 400px;
 }
+
 
 
 /* MEDIA QUERY TABLET */
@@ -58,8 +62,10 @@
         column-gap: 1.5rem;
     }
 
-    /* PROXIMOS EVENTOS */
-    .eventos__lista{
+    /* PROXIMOS EVENTOS
+    Y AGENDA */
+    .eventos__lista,
+    .agenda__lista{
         justify-content: end;
     }
     
