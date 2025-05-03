@@ -1,3 +1,5 @@
+/* VERSION BASE SMARTPHONE */
+/* Encabezado */
 .menu{
     display: flex;
     justify-content: space-evenly;
@@ -6,19 +8,36 @@
     column-gap: 20px;
 }
 
+
+/* Categorías */
 .categorias__lista{
     display: flex;
     flex-direction: column;
     row-gap: 0.5rem;
 }
 
+
+/* MEDIA QUERY TABLET */
 @media(min-width:720px){
+    
+    /* Encabezado */
     .menu{
         column-gap: 70px;
     }
+
+    /* Categorias */
+    .categorias__lista{
+        flex-wrap: wrap;
+        row-gap: 1rem;
+        column-gap: 1.5rem;
+    }
 }
 
+
+/* MEDIA QUERY DESKTOP */
 @media(min-width:1440px){
+
+    /* Encabezado */
     .menu{
         column-gap: 105px;
         flex-wrap: nowrap;
@@ -43,6 +62,4 @@
     .menu__item:nth-child(5){
         order: 2;
     }
-    
-
 }
